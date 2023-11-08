@@ -1,6 +1,6 @@
 <?php 
 /**
- * Plugin Name:       SAMM Plugin
+ * Plugin Name:       Samm Plugin
  * Plugin URI:        https://www.mudassir.co/my-work/
  * Description:       Gutenberg blocks
  * Version:           1.0.0
@@ -22,9 +22,9 @@ require_once untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/inc/custom-fun
 
 use SAMMPLUGIN\Plugin;
 
-if ( class_exists( 'SAMM-plugin\Plugin' ) ) {
+*if ( class_exists( 'SAMMPLUGIN\Plugin' ) ) {
 	$the_plugin = new Plugin();
 }
 
 register_activation_hook( __FILE__, [ $the_plugin, 'activate' ] );
-register_deactivation_hook( __FILE__, [ $the_plugin, 'deactivate' ] );
+register_deactivation_hook( __FILE__, [ $the_plugin, 'deactivate' ] ); */

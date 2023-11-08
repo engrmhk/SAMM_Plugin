@@ -21,7 +21,7 @@
 		"wordpress",
 		"themes"
 	],
-	"author": "Imran Sayed",
+	"author": "Mudassir Hassan Khan",
 	"license": "MIT",
 	"private": true,
 	"devDependencies": {
