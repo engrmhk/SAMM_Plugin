@@ -1,8 +1,8 @@
 {
-    "name": "precision15/samm",
+    "name": "precision15/samm-plugin",
     "autoload": {
         "psr-4": {
-            "Precision15\\Samm\\": "src/"
+            "Precision15\\Samm-plugin\\": "src/"
         }
     },
     "authors": [
