@@ -1,4 +1,4 @@
-# aquila-features
+# SAMM Plugin
 Advanced WordPress Plugin Development
 
 # Setup
