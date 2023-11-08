@@ -4,7 +4,7 @@
         "psr-4": {
             "Precision15\\Samm-plugin\\": "src/"
         }
-    },
+	},
     "authors": [
         {
             "name": "engrmhk",

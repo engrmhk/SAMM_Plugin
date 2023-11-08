@@ -55,7 +55,7 @@ class Assets {
 		if ( is_admin() ) {
 			wp_enqueue_script(
 				'af-blocks-js',
-				SAMM_FEATURES_PLUGIN_BUILD_URL . '/js/editor.js',
+				SAMM_PLUGIN_PLUGIN_BUILD_URL . '/js/editor.js',
 				$js_dependencies,
 				$version,
 				true
@@ -70,9 +70,9 @@ class Assets {
 
 		wp_enqueue_style(
 			'af-blocks-css',
-			SAMM_FEATURES_PLUGIN_BUILD_URL . '/css/editor.css',
+			SAMM_PLUGIN_PLUGIN_BUILD_URL . '/css/editor.css',
 			$css_dependencies,
-			filemtime( SAMM_FEATURES_PLUGIN_BUILD_PATH . '/css/editor.css' ),
+			filemtime( SAMM_PLUGIN_PLUGIN_BUILD_PATH . '/css/editor.css' ),
 			'all'
 		);
 	}
